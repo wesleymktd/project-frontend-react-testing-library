@@ -66,7 +66,7 @@ describe('Testa o Component Pokedex...', () => {
     expect(namePok).toHaveTextContent('Pikachu');
   });
 
-  it('Testa se os proximos pokemons são mostrados um a um', () => {
+  it('Testa se a pokedex tem os botões de filtro', () => {
     // const favoritePokemon = pokemonList.filter(({ id }) => isPokemonFavoriteById[id]);
     renderWithRouter(<Pokedex
       pokemonList={ pokemonList }
